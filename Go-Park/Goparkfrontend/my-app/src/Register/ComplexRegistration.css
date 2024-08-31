@@ -1,0 +1,36 @@
+/* Container for the registration form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px; /* Increased the form width limit */
+    padding: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+.form-control {
+    width: 100%;
+    padding: 12px; /* Increased padding for better usability */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Error message styling */
+.error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}

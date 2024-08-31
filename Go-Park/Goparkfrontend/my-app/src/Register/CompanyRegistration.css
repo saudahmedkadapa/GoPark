@@ -1,0 +1,17 @@
+/* Specific styles for Company Registration */
+.company-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling for company registration */
+  .company-form-group label {
+    font-weight: bold;
+  }
+  
+  /* Error styling for company registration */
+  .company-error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  

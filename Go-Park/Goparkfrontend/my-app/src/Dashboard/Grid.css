@@ -1,0 +1,39 @@
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.grid-item.available {
+  background-color: #c0e6c8; /* Example color for available slots */
+}
+
+.grid-item.booked-slot {
+  background-color: #ff9999; /* Red color for booked slots */
+}
+
+.grid-item:hover {
+  background-color: #e0f2f1; /* Example color for hover effect */
+}
+
+.slot-number {
+  font-weight: bold;
+}
+
+.slot-status {
+  margin-top: 5px;
+}
+
+.book-button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #45a049;
+}

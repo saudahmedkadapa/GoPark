@@ -1,0 +1,17 @@
+/* Specific styles for Employee Registration */
+.employee-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling for employee registration */
+  .employee-form-group label {
+    font-weight: bold;
+  }
+  
+  /* Error styling for employee registration */
+  .employee-error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  

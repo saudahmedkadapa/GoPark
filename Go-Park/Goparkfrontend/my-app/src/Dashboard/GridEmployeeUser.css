@@ -1,0 +1,51 @@
+.grid-item {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.grid-item.booked-slot {
+  background-color: red;
+  color: white;
+}
+
+.grid-item:nth-child(-n + 46) { /* 80% of 58 slots = 46 slots */
+  background-color: blue; /* Light green for 2-wheeler */
+}
+
+.grid-item:nth-child(n + 47) { /* 20% of 58 slots = 12 slots */
+  background-color: darkgreen; /* Dark green for 4-wheeler */
+  color: white; /* Ensuring text is visible on dark background */
+}
+
+.slot-number {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.slot-status {
+  margin-top: 5px;
+}
+
+.book-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+}

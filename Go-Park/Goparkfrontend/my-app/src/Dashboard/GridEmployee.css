@@ -1,0 +1,82 @@
+.grid-item {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.grid-item.booked-slot {
+  background-color: red;
+  color: white;
+}
+
+.grid-item:nth-child(-n + 36) { /* 80% of 58 slots = 46 slots */
+  background-color: rgb(148, 162, 201); /* Light green for 2-wheeler */
+}
+
+.grid-item:nth-child(n + 37) { /* 20% of 58 slots = 12 slots */
+  background-color: rgb(150, 95, 125); /* Dark green for 4-wheeler */
+  color: rgb(15, 15, 15); /* Ensuring text is visible on dark background */
+}
+
+.grid-item:nth-child(n + 55) { /* 20% of 58 slots = 12 slots */
+  background-color: rgb(108, 189, 108); /* Dark green for 4-wheeler */
+  color: rgb(15, 15, 15); /* Ensuring text is visible on dark background */
+}
+
+.slot-number {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.slot-status {
+  margin-top: 5px;
+}
+
+.book-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: rgb(220, 235, 19);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+}
+
+
+nd p {
+  margin: 5px 0;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.color-box.twowheeler {
+  background-color: rgb(173, 216, 230); /* Light cyan for 2-wheeler */
+}
+
+.color-box.fourwheeler {
+  background-color: rgb(144, 238, 144); /* Light green for 4-wheeler */
+}
+
+.color-box.hatched {
+  background-color: rgb(255, 192, 203); /* Light pink for hatched */
+}

@@ -1,0 +1,27 @@
+.employee-dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-dashboard-table th, .employee-dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.employee-dashboard-table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.book-slot-btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-slot-btn:hover {
+  background-color: #0056b3;
+}

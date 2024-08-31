@@ -1,0 +1,17 @@
+/* Specific styles for Tenant Registration */
+.tenant-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling for tenant registration */
+  .tenant-form-group label {
+    font-weight: bold;
+  }
+  
+  /* Error styling for tenant registration */
+  .tenant-error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
